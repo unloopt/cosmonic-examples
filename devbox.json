@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "rustup@latest"
+  ],
+  "env": {
+    "PROJECT_DIR": "$PWD"
+  },
+  "shell": {
+    "init_hook": [
+      "source config/env.sh",
+      "source config/rustup.sh",
+      "cargo fetch"
+    ],
+    "scripts": {}
+  }
+}

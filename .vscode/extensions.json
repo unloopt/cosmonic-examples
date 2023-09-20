@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "vadimcn.vscode-lldb",
+    "rust-lang.rust-analyzer",
+    "tamasfe.even-better-toml",
+    "serayuzgur.crates",
+    "jetpack-io.devbox",
+    "mkhl.direnv",
+  ],
+  "unwantedRecommendations": []
+}
